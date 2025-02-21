@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: "poppins","sans-serif";
+
+}
+main-box{
+  background: url("photo.jpg");
+  height: 108vh;
+  background-size: cover;
+}
+.btn_one{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 16px;
+  line-height: 16;
+}
