@@ -75,9 +75,16 @@
 .sidebar_menu .menu li:hover{
   box-shadow: 0 0 6px rgba(255,255,255,0.5);
 }
-.btn_one:hover{
+.btn_one i:hover{
   font-size:40px;
 }
-.btn_two:hover{
+.btn_two i:hover{
   font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+  opacity:1;
+  transform: scale(1,1)
+}
+#check:checked ~ .sidebar_menu{
+  left:0;
 }
